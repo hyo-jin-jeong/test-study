@@ -21,7 +21,6 @@ class Stack {
         } else {
             throw Error('Stack is empty');
         }
-
     }
 
     size() {

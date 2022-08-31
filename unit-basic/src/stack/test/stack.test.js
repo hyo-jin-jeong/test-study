@@ -26,7 +26,7 @@ describe('Stack class', () => {
             stack.push(2);
 
             expect(stack.pop()).toBe(2);
-            expect(stack.array.length).toBe(1);
+            expect(stack.size()).toBe(1);
         });
 
     })
